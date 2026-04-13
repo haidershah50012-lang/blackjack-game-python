@@ -1,0 +1,34 @@
+# Blackjack Game 🃏
+
+A terminal based Blackjack card game built with Python where 
+the player competes against the computer.
+
+## How it Works
+- Player and computer both get 2 cards at the start
+- Player can choose to get more cards or stop
+- Cards are randomly selected from a standard deck
+- Ace (11) automatically changes to 1 if score goes over 21
+- First to reach 21 with 2 cards wins with a Blackjack!
+
+## Game Rules
+- Score over 21 = You lose (Bust)
+- Blackjack = 21 with exactly 2 cards (instant win)
+- Highest score without going over 21 wins
+- If both scores are equal = Draw
+
+## Features
+- Random card selection
+- Automatic Ace handling (11 becomes 1)
+- Score calculation system
+- Player vs Computer gameplay
+
+## Libraries Used
+- random (built-in Python library)
+
+## How to Run
+- Make sure Python is installed on your computer
+- Download the blackjack.py file
+- Open terminal and run: python blackjack.py
+
+## Author
+Haider Shah
